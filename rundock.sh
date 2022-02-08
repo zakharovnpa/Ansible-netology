@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Скрипт для запуска контейнеров docker
+# Скрипт для запуска контейнеров docker и запуска ansible-playbook
 
 
 docker run -d --rm --name centos7 eeb6ee3f44bd sleep 60000000 && 	# Старт нового контейнера с именем centos7 на основе образа eeb6ee3f44bd
